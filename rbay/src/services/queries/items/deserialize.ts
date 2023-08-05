@@ -14,6 +14,6 @@ export const deserialize = (id: string, item: { [key: string]: string }): Item =
 		views: parseInt(item.views),
 		likes: parseInt(item.likes),
 		bids: parseInt(item.bids),
-		price: parseFloat(item.price),
-	}
+		price: parseFloat(item.price)
+	};
 };

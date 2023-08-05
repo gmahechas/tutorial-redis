@@ -29,7 +29,7 @@
 >
 	<input
 		type="search"
-		name="serch"
+		name="search"
 		placeholder="Search"
 		class="px-4 w-full rounded-full text-sm focus:outline-none"
 		bind:value={term}
